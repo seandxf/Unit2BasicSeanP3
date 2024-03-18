@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 10.0f;
     public float xRange = 10;
 
-    public Gameobject 
+    public GameObject projectilePrefad;
     void Start()
     {
         
@@ -28,5 +28,9 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
 
         }
-    }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(projectilePrefad, transform.position, projectilePrefad.transform.rotation);
+        }
+    }    
 }
