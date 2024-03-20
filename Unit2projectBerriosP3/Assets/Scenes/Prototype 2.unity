@@ -560,7 +560,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -824,10 +824,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 3631609169797698058, guid: 9ebc465071efdac4da8d723ee267db8b, type: 3}
   - {fileID: 5622923990998940587, guid: 7da296e9d18fbde42a75c1961dde72e6, type: 3}
+  - {fileID: 3631609169797698058, guid: 9ebc465071efdac4da8d723ee267db8b, type: 3}
   - {fileID: 1734281512010890473, guid: d4f7c1288fc06044aa273d4c0c2198d9, type: 3}
-  animalIndex: 0
 --- !u!4 &2124759780
 Transform:
   m_ObjectHideFlags: 0
